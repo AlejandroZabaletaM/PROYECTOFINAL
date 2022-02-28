@@ -16,7 +16,7 @@ if(!empty($_POST['nickname']) && !empty($_POST['password'])){
         //Si la contraseña es la del cliente y entra al if la variable error se iguala a "ok"
         $error = "OK";
         //Aquí se redirreciona a la página donde el cliente va a comprar.
-        header("Location: compras.php");
+        header("Location: Cestacompras.php");
         //Si la contraseña no es la correcta se inicia la variable error y se iguala a "incorrecto"
     }else{
         $error = "incorrecto";
